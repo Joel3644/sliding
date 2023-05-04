@@ -8,7 +8,7 @@ public static class LargestSeriesProduct {
 
         if(span > 0 && digits.Length == 0)
             throw new System.ArgumentException();
-        if(span == 0 || digits.Length == 0)
+        if(span == 0)
             return 1;
         if(digits.Length - span < 0 || span < 0)
             throw new System.ArgumentException();
